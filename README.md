@@ -1,0 +1,2 @@
+# Firebase onAuthStateChanged Unsubscribe Issue
+This repo demonstrates a common issue with Firebase's `onAuthStateChanged` function: not unsubscribing properly, leading to memory leaks.  The original code lacks proper cleanup. The solution demonstrates how to correctly unsubscribe using a cleanup function in a React component.
